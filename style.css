@@ -31,7 +31,7 @@
 }
 
 .middle{
-    width: 450px;
+    width: 400px;
     margin: auto;
 }
 
@@ -45,10 +45,11 @@
     display: grid;
     grid-template-columns: 75% 14% 1% 10%;
     margin-bottom: 15px;
+    padding-right: 6px;
 }
 
 .image-home{
-    width: 450px;
+    width: 400px;
     margin-bottom: 15px;
 }
 
