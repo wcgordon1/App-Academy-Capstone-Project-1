@@ -79,3 +79,10 @@ article{
     from, to { border-color: transparent }
     50% { border-color: orange }
   }
+
+  #openGrid {
+      display: grid;
+      grid-template-columns: 30% 5% 30% 5% 30%;
+      text-align: center;
+      padding: 15px;
+  }
