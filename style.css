@@ -95,3 +95,29 @@ article{
   #woo {
       text-align: center;
   }
+
+  #inny{
+      width: 400px;
+  }
+
+  textarea{
+      width: 400px;
+      height: 100px;
+  }
+
+  button {
+      margin-top: 10px;
+      width: 100px;
+      height: 30px;
+  }
+
+  button:hover{
+    transition: all 500ms;
+    color: white;
+    cursor: crosshair;
+}
+
+  .button {
+      display: flex;
+      justify-content: flex-end;
+  }

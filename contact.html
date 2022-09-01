@@ -8,7 +8,7 @@
     <title>Will Gordon - AppAcademy</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7f8e17c084.js" crossorigin="anonymous"></script>
-
+    <link rel="shortcut icon" type="image/jpg" href="images/face3.png" />
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <ol>
             <li class="crumb"><a href="index.html">home</a></li>
             <li class="crumb"><a href="art.html">art</a></li>
-            <li class="crumb"><a href="#">updates</a></li>
+            <li class="crumb"><a href="about.html">about</a></li>
             <li class="crumb"><a href="contact.html">contact</a></li>
         </ol>
     </div>
@@ -26,10 +26,10 @@
         <div class="formy">
             <form name="contact" method="POST" data-netlify="true" action="formconfirmation.html">
                 <p>
-                    <label>Your Name: <input type="text" name="name" /></label>
+                    <label>Your Name: <input type="text" name="name" id="inny" /></label>
                 </p>
                 <p>
-                    <label>Your Email: <input type="email" name="email" /></label>
+                    <label>Your Email: <input type="email" name="email" id="inny" /></label>
                 </p>
 
                 <p>What brings you here?</p>
@@ -41,14 +41,18 @@
                 <label for="other">Other</label>
 
                 <p>
-                    <label>Message: <textarea name="message"></textarea></label>
+                    <label>Message: <textarea name="message" id="textarea"></textarea></label>
                 </p>
                 <label>
                     <span>Add file:</span>
                     <input name="file" type="file" />
                 </label>
+                <br>
                 <p>
+                <div class="button">
                     <button type="submit">Send</button>
+                </div>
+
                 </p>
             </form>
         </div>
@@ -56,10 +60,10 @@
     </div>
     <div class="crumbs">
         <ol>
-            <li class="crumb"><a href="#">home</a></li>
-            <li class="crumb"><a href="#">news</a></li>
-            <li class="crumb"><a href="#">updates</a></li>
-            <li class="crumb"><a href="#">more</a></li>
+            <li class="crumb"><a href="index.html">home</a></li>
+            <li class="crumb"><a href="art.html">art</a></li>
+            <li class="crumb"><a href="about.html">about</a></li>
+            <li class="crumb"><a href="contact.html">contact</a></li>
         </ol>
     </div>
 </body>
