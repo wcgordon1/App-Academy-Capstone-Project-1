@@ -86,3 +86,12 @@ article{
       text-align: center;
       padding: 15px;
   }
+
+  .formy{
+      margin-bottom: 20px;
+      padding-bottom: 50px;
+  }
+
+  #woo {
+      text-align: center;
+  }
